@@ -1,5 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        //todo Реализовать класс Утка и Собака по описанным в ТЗ правилам.
+    Duck duck = new Duck(5.0, 2, "Маша");
+    duck.move();
+    duck.walk();
+
+    Dog dog = new Dog(10.3, 5, "Берта");
+    dog.move();
+    dog.walk();
     }
 }
