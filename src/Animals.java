@@ -39,8 +39,6 @@ public abstract class Animals {
         System.out.println("Животное идет по земле");
     }
 
-    public void move() {
-
-    }
+    public abstract void move();
 
 }

@@ -6,7 +6,8 @@ public class Duck extends Animals{
         super(weigth, age, name);
     }
 
-    public void move(){
-        System.out.println("Утка по кличке " + super.getName() + " летит в облаках");
+    @Override
+    public void move() {
+        System.out.println("Утка по кличке " + super.getName() + " бежит по земле");
     }
 }
